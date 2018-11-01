@@ -5,4 +5,6 @@ iOS SDK开发
 
 其实，早在WWDC2014苹果在iOS上便开放了动态库。使用动态库便可以解决上面静态库所面临的问题。我公司采用动态库开发SDK已迭代多个版本，且已成功上架。Demo以封装`MBProgressHUD`为例,介绍SDK开发，脚本和bundle的使用
 
+制作过程参考 https://www.jianshu.com/p/0b00d27ed2f5
+
 ![img](https://github.com/wutao23yzd/SDKDemo/blob/master/sdk.gif)
