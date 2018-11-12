@@ -1,10 +1,14 @@
 # SDKDemo
 iOS SDK开发
 ---
-  一直以来开发iOS SDK的常用方式是使用`静态库`开发，当SDK中需要用到类似`AFNetWorking`且主项目中也会用到`AFNetWorking`时，XCode会提示`duplicate symbol`,且这个问题一直没有有效的处理方式。类似需求，查询网上资料，什么`cocoapods`私有库，公有库，结果越扯越远。
+静态方式开发，一直是iOS SDK开发的主流方式。百度地图、高德地图等大型三方SDK均是采用静态的方式开发。也有采用动态的方式开发SDK的如：环信。
+静态方式和动态方式比较：
+>*  静态SDK不能嵌套。见[iOS中Framework Library嵌套使用](https://www.jianshu.com/p/874e178cdc9d)。因此，当SDK需要引用其他SDK，且不希望暴露给用户时，只能采用[动态库](https://www.jianshu.com/p/0b00d27ed2f5)的开发方式。
+>* 若SDK和项目中用到相同的三方库(如：AFNetworking)。动态库：工程和项目中可以存在2份AFNetworking,因此开发方便。静态库只会存在一份，因此开发相对复杂，但减少了代码的冗余。
 
-其实，早在WWDC2014苹果在iOS上便开放了动态库。使用动态库便可以解决上面静态库所面临的问题。我公司采用动态库开发SDK已迭代多个版本，且已成功上架。Demo以封装`MBProgressHUD`为例,介绍SDK开发，脚本和bundle的使用
-
-制作过程参考 https://www.jianshu.com/p/0b00d27ed2f5
+动态库制作过程参考 https://www.jianshu.com/p/0b00d27ed2f5
+静态库制作过程参考 https://www.jianshu.com/p/7d4f0cb11199
 
 ![img](https://github.com/wutao23yzd/SDKDemo/blob/master/sdk.gif)
+
+
