@@ -1,0 +1,16 @@
+
+# platform :ios, '9.0'
+workspace 'StaticSDKDemo'
+
+def shared_pods
+    pod 'AFNetworking'
+end
+
+target 'StaticSDKDemo' do
+    project 'StaticSDKDemo'
+    shared_pods
+end
+target 'HelloSDK' do
+    project '../HelloSDK/HelloSDK'
+    shared_pods
+end
