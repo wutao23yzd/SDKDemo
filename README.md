@@ -1,8 +1,8 @@
 # SDKDemo
 iOS SDK开发
-DynamicSDK 动态库开发Demo
+#### DynamicSDK文件夹下是动态库开发Demo
 制作过程参考 https://www.jianshu.com/p/0b00d27ed2f5
-StaticSDK 静态库开发Demo
+#### StaticSDK文件夹下是静态库开发Demo
 制作过程参考 https://www.jianshu.com/p/7d4f0cb11199
 
 ---
