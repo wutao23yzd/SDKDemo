@@ -12,10 +12,10 @@ iOS SDK 开发分为静态库开发和动态库开发。两种方式各有优劣
 
 
 #### DynamicSDK文件夹下是动态库开发Demo
-动态库制作过程参考 https://www.jianshu.com/p/0b00d27ed2f5
+##### 动态库制作过程参考 https://www.jianshu.com/p/0b00d27ed2f5
 ![img](https://github.com/wutao23yzd/SDKDemo/blob/master/DynamicSDK/sdk.gif)
 #### StaticSDK文件夹下是静态库开发Demo
-静态库制作过程参考 https://www.jianshu.com/p/7d4f0cb11199
+##### 静态库制作过程参考 https://www.jianshu.com/p/7d4f0cb11199
 ![img](https://github.com/wutao23yzd/SDKDemo/blob/master/StaticSDK/staticPic.gif)
 
 
