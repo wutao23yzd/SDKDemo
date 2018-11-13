@@ -7,6 +7,7 @@
 //
 
 #import "HSViewController.h"
+#import "AFAppDotNetAPIClient.h"
 
 @interface HSViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;
@@ -28,6 +29,17 @@
     self.theImageView.image = [UIImage imageNamed:@"pic"
                                          inBundle:[NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"HelloSDKBundle" withExtension:@"bundle"]]
                     compatibleWithTraitCollection:nil];
+    //
+    [[AFAppDotNetAPIClient sharedClient] GET:@"singlePoetry" parameters:nil progress:nil success:^(NSURLSessionDataTask * __unused task, id JSON) {
+        if (JSON && [JSON isKindOfClass:[NSDictionary class]]
+            && JSON[@"result"] && [JSON[@"result"] isKindOfClass:[NSDictionary class]]) {
+            self.textLabel.text = JSON[@"result"][@"content"];
+        }
+        
+
+    } failure:^(NSURLSessionDataTask *__unused task, NSError *error) {
+        NSLog(@"请求失败");
+    }];
 }
 
 - (IBAction)clickToCancel:(UIButton *)sender {

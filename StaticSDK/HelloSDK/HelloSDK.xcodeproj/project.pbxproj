@@ -27,6 +27,8 @@
 		38A8D3432199C7FA00C16A6E /* HSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A8D33B2199C2D600C16A6E /* HSViewController.xib */; };
 		38A8D3442199C7FA00C16A6E /* SDKAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A8D33F2199C40D00C16A6E /* SDKAssets.xcassets */; };
 		38D2633D219522F4006AE07F /* HelloSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D2633B219522F4006AE07F /* HelloSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38F92BBA219B138B00F18A7C /* AFAppDotNetAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F92BB8219B138B00F18A7C /* AFAppDotNetAPIClient.h */; };
+		38F92BBB219B138B00F18A7C /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F92BB9219B138B00F18A7C /* AFAppDotNetAPIClient.m */; };
 		6732306A1039DD8220E0C520 /* libPods-HelloSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB86CF40D8EE93E0B11D8563 /* libPods-HelloSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		38D2633C219522F4006AE07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38D263472195250C006AE07F /* HelloSDKBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSDKBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D263492195250C006AE07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F92BB8219B138B00F18A7C /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		38F92BB9219B138B00F18A7C /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		6F22598EBFB3A27858445116 /* Pods-HelloSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSDK.debug.xcconfig"; path = "Target Support Files/Pods-HelloSDK/Pods-HelloSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		BB86CF40D8EE93E0B11D8563 /* libPods-HelloSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E480578A044C27B4B3934D /* Pods-HelloSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSDK.release.xcconfig"; path = "Target Support Files/Pods-HelloSDK/Pods-HelloSDK.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				38A8D33A2199C2D600C16A6E /* HSViewController.m */,
 				38A8D33B2199C2D600C16A6E /* HSViewController.xib */,
 				38A8D33F2199C40D00C16A6E /* SDKAssets.xcassets */,
+				38F92BB8219B138B00F18A7C /* AFAppDotNetAPIClient.h */,
+				38F92BB9219B138B00F18A7C /* AFAppDotNetAPIClient.m */,
 			);
 			path = HelloSDK;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F92BBA219B138B00F18A7C /* AFAppDotNetAPIClient.h in Headers */,
 				38A8D33C2199C2D600C16A6E /* HSViewController.h in Headers */,
 				38D2633D219522F4006AE07F /* HelloSDK.h in Headers */,
 			);
@@ -289,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F92BBB219B138B00F18A7C /* AFAppDotNetAPIClient.m in Sources */,
 				38A8D33D2199C2D600C16A6E /* HSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

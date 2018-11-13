@@ -1,0 +1,28 @@
+{
+  "name": "HelloSDK",
+  "version": "1.0.0",
+  "summary": "A short description of HelloSDk",
+  "description": "pod spec create xx",
+  "homepage": "http://www.baidu.com",
+  "license": "None",
+  "authors": {
+    "wutao": "359424792@qq.com"
+  },
+  "source": {
+    "path": "/"
+  },
+  "static_framework": true,
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "vendored_frameworks": "HelloSDK.framework"
+  },
+  "resources": "HelloSDKBundle.bundle",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}

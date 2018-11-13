@@ -33,6 +33,14 @@
 		38D2636C219528BC006AE07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D2636E219528BC006AE07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38D2636F219528BC006AE07F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38F92BBC219B184F00F18A7C /* HelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F92BBE219B1AC000F18A7C /* HelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F92BC0219B1BBA00F18A7C /* HelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F92BC2219B1C6100F18A7C /* HelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F92BC4219B1C8C00F18A7C /* HelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F92BC6219B1CAB00F18A7C /* HelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F92BC8219B1CDD00F18A7C /* HelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F92BCA219B1D0A00F18A7C /* HelloSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HelloSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,14 @@
 		68FAC1AF319F59AAFC5A31E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38F92BCA219B1D0A00F18A7C /* HelloSDK.framework */,
+				38F92BC8219B1CDD00F18A7C /* HelloSDK.framework */,
+				38F92BC6219B1CAB00F18A7C /* HelloSDK.framework */,
+				38F92BC4219B1C8C00F18A7C /* HelloSDK.framework */,
+				38F92BC2219B1C6100F18A7C /* HelloSDK.framework */,
+				38F92BC0219B1BBA00F18A7C /* HelloSDK.framework */,
+				38F92BBE219B1AC000F18A7C /* HelloSDK.framework */,
+				38F92BBC219B184F00F18A7C /* HelloSDK.framework */,
 				38A8D3412199C76900C16A6E /* HelloSDK.framework */,
 				09E8F63211DEA50018D0103C /* libPods-StaticSDKDemo.a */,
 			);
